@@ -11,14 +11,14 @@
         }
 
         .centered {
-          text-shadow: 3px 3px 0px black;
+          text-shadow: 3px 3px 0px white;
         }
 
           /* Container holding the image and the text */
 .container {
   position: relative;
   text-align: center;
-  color: white;
+  color: black;
   height: 200px;
 }
 
@@ -87,7 +87,7 @@ img{
         <div class="topnav">
             <a href="Portal.html">Home</a>
             <a class="active" href="about.html">About</a>
-            <a href="#contact">Contact</a>
+            <a href="contact.html">Contact</a>
             <input type="text" placeholder="Search..">
         </div>
 
@@ -104,7 +104,7 @@ img{
               display: block;
               color: rgb(250, 248, 248);
               text-align: center;
-              padding: 14px 16px;
+              padding: 18px 24px;
               text-decoration: none;
               font-size: 17px;
             }
@@ -118,7 +118,7 @@ img{
             /* Style the "active" element to highlight the current page */
             .topnav a.active {
               background-color: #ee9c58;
-              color: white;
+              color: black;
             }
             
             /* Style the search box inside the navigation bar */
@@ -167,6 +167,8 @@ img{
             
         </style>
 
+        <p></p>
+
        <h1 id="about">ABOUT US</h1>
        <div id="box"></div>
        <p id="para">
@@ -198,7 +200,7 @@ img{
        <div class="row">
   <div class="column">
     <div class="card">
-      <img src="images/mr doe.webp" alt="DGM" style="width:80%; height: 100%;">
+      <img src="images/mr doe.webp" alt="DGM" style="width:80%; height: 80%;">
       <div class="container">
         <h2>Jonah Doe</h2>
         <p class="title">CEO &amp; Founder</p>
@@ -211,7 +213,7 @@ img{
 
   <div class="column">
     <div class="card">
-      <img src="images/uncle doe.webp" alt="Mike" style="width:80%; height: 100%;">
+      <img src="images/uncle doe.webp" alt="Mike" style="width:80%; height: 80%;">
       <div class="container">
         <h2>Mike Ross</h2>
         <p class="title">Art Director</p>
@@ -222,19 +224,7 @@ img{
     </div>
   </div>
 
-  <div class="column">
-    <div class="card">
-      <img src="images/mrs doe.webp" alt="Jane" style="width:80%; height: 100%;">
-      <div class="container">
-        <h2>Jane Doe</h2>
-        <p class="title">Designer</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>example@example.com</p>
-        <p><button class="button">Contact</button></p>
-      </div>
-    </div>
   </div>
-</div>
 
     <style>
         /* Three columns side by side */
@@ -248,7 +238,7 @@ img{
 /* Display the columns below each other instead of side by side on small screens */
 @media screen and (max-width: 500px) {
   .column {
-    width: 80%;
+    width: 50%;
     display: block;
   }
 }
